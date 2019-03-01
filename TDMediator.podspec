@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TDMediator'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TDMediator.'
+  s.summary          = '业务组件消息中间件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  该组件负责业务组件间相互调用和远程调用。采用runtime机制实现发现服务，从而接触服务提供组件对中间件的依赖。
                        DESC
 
-  s.homepage         = 'https://github.com/707357307@qq.com/TDMediator'
+  s.homepage         = 'https://github.com/shmilyfei0720/TDMediator'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '707357307@qq.com' => '707357307@qq.com' }
-  s.source           = { :git => 'https://github.com/707357307@qq.com/TDMediator.git', :tag => s.version.to_s }
+  s.author           = { 'chen' => '707357307@qq.com' }
+  s.source           = { :git => 'https://github.com/shmilyfei0720/TDMediator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'TDMediator/Classes/**/*'
   
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
