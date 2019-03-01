@@ -7,22 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1580C088BBA0B6D9ED47407FA6D61A7F /* TDMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 002CB23EDE4A02A1421C0CE7C930C347 /* TDMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FA88675530B88CFE92A925B55A32735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		2FA88675530B88CFE92A925B55A32735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		42803F79D138AADFA2C0673122CAB8EA /* TDMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 530E8FBB0AACBEF738E3ED66AC4CA6C7 /* TDMediator.m */; };
+		58AD6E1D2118BF4736063492E2487BCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
 		5B86A5E8A41C5224613644E5E2FAC310 /* Pods-TDMediator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51FD6DB9D879DA6F7B31DF8881955ECD /* Pods-TDMediator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5ED55D5C7CDF1E120F618E404C0A8DD0 /* Pods-TDMediator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92753D14DF6220806B20E69DB0409977 /* Pods-TDMediator_Example-dummy.m */; };
+		67DC40D06F6DDE632205ADB7BBFAFC77 /* TDMediator+TDVideoPlayModuleActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA2A599A3DE3F19B8D91549E9972986 /* TDMediator+TDVideoPlayModuleActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8590ACDDA93233CCF8BAED62A0887FD8 /* Pods-TDMediator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4745B27B437B254A39777B3B8AA99B7 /* Pods-TDMediator_Tests-dummy.m */; };
-		94BDD001222777E700F4395E /* TDMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BDCFFF222777E700F4395E /* TDMediator.m */; };
-		94BDD002222777E700F4395E /* TDMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BDCFFF222777E700F4395E /* TDMediator.m */; };
-		94BDD003222777E700F4395E /* TDMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BDD000222777E700F4395E /* TDMediator.h */; };
-		94BDD004222777E700F4395E /* TDMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BDD000222777E700F4395E /* TDMediator.h */; };
-		94BDD009222778F300F4395E /* TDMediator+TDVideoPlayModuleActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BDD007222778F300F4395E /* TDMediator+TDVideoPlayModuleActions.h */; };
-		94BDD00A222778F300F4395E /* TDMediator+TDVideoPlayModuleActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BDD007222778F300F4395E /* TDMediator+TDVideoPlayModuleActions.h */; };
-		94BDD00B222778F300F4395E /* TDMediator+TDVideoPlayModuleActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BDD008222778F300F4395E /* TDMediator+TDVideoPlayModuleActions.m */; };
-		94BDD00C222778F300F4395E /* TDMediator+TDVideoPlayModuleActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BDD008222778F300F4395E /* TDMediator+TDVideoPlayModuleActions.m */; };
-		D03DBCDEAB0DD0B0099D3E956AB82167 /* TDMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA7939F0D1C63985593B17CAFAD56F1 /* TDMediator-dummy.m */; };
-		F12EDED126FA7698CE5D0194A6E5795E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		F2AB3F38F386D88F9F7D8E7176731588 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		AF12242C17E1E57E7142265352465EFB /* TDMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 537AFD201D3005443BC40E09F5274081 /* TDMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCC33318C6E034C45981CD365DDDC1BD /* TDMediator+TDVideoPlayModuleActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8806C5321200CFAD39E81E3E4DFE30FF /* TDMediator+TDVideoPlayModuleActions.m */; };
+		DD6C11C2C6774137C8072515E9AEA41D /* TDMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F008E1095A05B1D82E7B540828D3D577 /* TDMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E18A53B750ECC9123B0A48CAA9C7DD48 /* TDMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCD5EE66B230B0F4BD19950E98FE219 /* TDMediator-dummy.m */; };
+		E37CB37D775DA4E2F5FDDF38E5E89B2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		F12EDED126FA7698CE5D0194A6E5795E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
 		F3348F91B93F0378BB2C818E3F1EA078 /* Pods-TDMediator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFCEC5990DDA6A323BE94E7877AFFA39 /* Pods-TDMediator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -44,44 +41,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002CB23EDE4A02A1421C0CE7C930C347 /* TDMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDMediator-umbrella.h"; sourceTree = "<group>"; };
 		0DA83EA17AF018EF6D465A85B28BEC66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1310C699283429EF744FB0CDB33EBF8A /* Pods-TDMediator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDMediator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		197994921B99DD67747C58953542C5FB /* Pods-TDMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		19CFDE25E716D7DAF2F6CDC45B23B328 /* Pods-TDMediator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDMediator_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1B8F1D65BCAF19A9F417EDFA17157453 /* Pods-TDMediator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDMediator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1BA7939F0D1C63985593B17CAFAD56F1 /* TDMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TDMediator-dummy.m"; sourceTree = "<group>"; };
+		2DCD5EE66B230B0F4BD19950E98FE219 /* TDMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TDMediator-dummy.m"; sourceTree = "<group>"; };
+		2EA2A599A3DE3F19B8D91549E9972986 /* TDMediator+TDVideoPlayModuleActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TDMediator+TDVideoPlayModuleActions.h"; path = "TDMediator/Classes/TDModules/TDMediator+TDVideoPlayModuleActions.h"; sourceTree = "<group>"; };
+		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3309BC918E845B7A869AB17D7AFBAED2 /* Pods-TDMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		333A83AE8A6CEECEEC7F11F5483F8F44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		347DA4389B8926F52530B2E9136CEFB7 /* Pods-TDMediator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDMediator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		35BEB5650FD3A4BF2BB9EBF7659CC29E /* TDMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDMediator.xcconfig; sourceTree = "<group>"; };
 		3ECFCE23D1A58F573CFADA27F5A91B14 /* Pods-TDMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		43E28B45F9DF4CEBD60267B71A5C740A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		4F01D52039E631092D02C60A2CAFAAA4 /* TDMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDMediator-prefix.pch"; sourceTree = "<group>"; };
-		4F4B6743CA84A9441003D50A727F28C8 /* Pods_TDMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4B6743CA84A9441003D50A727F28C8 /* Pods_TDMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TDMediator_Tests.framework; path = "Pods-TDMediator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51FD6DB9D879DA6F7B31DF8881955ECD /* Pods-TDMediator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TDMediator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		530E8FBB0AACBEF738E3ED66AC4CA6C7 /* TDMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMediator.m; path = TDMediator/Classes/TDMediator.m; sourceTree = "<group>"; };
+		537AFD201D3005443BC40E09F5274081 /* TDMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMediator.h; path = TDMediator/Classes/TDMediator.h; sourceTree = "<group>"; };
 		5B8113A3A3289921CF27B6BEBF1790E7 /* Pods-TDMediator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TDMediator_Example.modulemap"; sourceTree = "<group>"; };
 		630CD68913082EB5D06D982F2BB0174C /* Pods-TDMediator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDMediator_Example-frameworks.sh"; sourceTree = "<group>"; };
-		68866EA6062B2C466D7DE2EC1AF74694 /* TDMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TDMediator.modulemap; sourceTree = "<group>"; };
-		75A5180267A87CA4A20CC3720841BEEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8806C5321200CFAD39E81E3E4DFE30FF /* TDMediator+TDVideoPlayModuleActions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TDMediator+TDVideoPlayModuleActions.m"; path = "TDMediator/Classes/TDModules/TDMediator+TDVideoPlayModuleActions.m"; sourceTree = "<group>"; };
 		92753D14DF6220806B20E69DB0409977 /* Pods-TDMediator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDMediator_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94BDCFFF222777E700F4395E /* TDMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDMediator.m; path = TDMediator/Classes/TDMediator.m; sourceTree = "<group>"; };
-		94BDD000222777E700F4395E /* TDMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDMediator.h; path = TDMediator/Classes/TDMediator.h; sourceTree = "<group>"; };
-		94BDD007222778F300F4395E /* TDMediator+TDVideoPlayModuleActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDMediator+TDVideoPlayModuleActions.h"; sourceTree = "<group>"; };
-		94BDD008222778F300F4395E /* TDMediator+TDVideoPlayModuleActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TDMediator+TDVideoPlayModuleActions.m"; sourceTree = "<group>"; };
-		B23C5BBEE8C75A431FC240A235A7FAF7 /* TDMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TDMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A026B87D02809DFEF23F7D4DA2B51393 /* TDMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDMediator-prefix.pch"; sourceTree = "<group>"; };
+		B23C5BBEE8C75A431FC240A235A7FAF7 /* TDMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TDMediator.framework; path = TDMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4BF82FB58F34E8AA7799D8DC741BECE /* TDMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TDMediator.modulemap; sourceTree = "<group>"; };
+		B9535DE0BAAFC7F748CBB6C17AF4FC80 /* TDMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDMediator.xcconfig; sourceTree = "<group>"; };
 		BA56ECBE31EDF3CB1389F325D4CD2F91 /* Pods-TDMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C4745B27B437B254A39777B3B8AA99B7 /* Pods-TDMediator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDMediator_Tests-dummy.m"; sourceTree = "<group>"; };
 		C89A899BE8FA0C60BF5CEA6C2D89AE03 /* Pods-TDMediator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDMediator_Example-resources.sh"; sourceTree = "<group>"; };
+		CAF46F6FEB9FAD63FD4A9E5319903546 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF682C7896A2012FB6781C75F1F41B54 /* Pods-TDMediator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDMediator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D30D304AE8F03D84ED2264B6EE5F48F4 /* Pods-TDMediator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TDMediator_Tests.modulemap"; sourceTree = "<group>"; };
-		D657D34F820C4E1C3FB3F47FC6BAEE20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DF45B3A3D62FA1D8BC9D482815A63C4B /* TDMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TDMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E65CC7E510BFAEF0E6BF8C0D32247183 /* Pods_TDMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65CC7E510BFAEF0E6BF8C0D32247183 /* Pods_TDMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TDMediator_Example.framework; path = "Pods-TDMediator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78317D5FF63A76B6B88B6B76ADD7B61 /* Pods-TDMediator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDMediator_Tests-resources.sh"; sourceTree = "<group>"; };
 		EFCEC5990DDA6A323BE94E7877AFFA39 /* Pods-TDMediator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TDMediator_Example-umbrella.h"; sourceTree = "<group>"; };
+		F008E1095A05B1D82E7B540828D3D577 /* TDMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDMediator-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +88,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A291059EE01E76C44DEAB2B5EB3F5272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37CB37D775DA4E2F5FDDF38E5E89B2A /* Foundation.framework in Frameworks */,
+				58AD6E1D2118BF4736063492E2487BCD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BE949DC50953CE03220E7548BFCAF4C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,54 +105,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F90A8FB8BB4E3BA70891DFB35237E0DA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F2AB3F38F386D88F9F7D8E7176731588 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02BE5301AC95A2C257012A398B92662C /* Pod */ = {
+		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				43E28B45F9DF4CEBD60267B71A5C740A /* LICENSE */,
-				D657D34F820C4E1C3FB3F47FC6BAEE20 /* README.md */,
-				DF45B3A3D62FA1D8BC9D482815A63C4B /* TDMediator.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		1FC18DD02E2DBD6510B592A5CD763D9C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				587F6753D75A13DE179A6C5A02D01DD0 /* TDMediator */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
+				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		587F6753D75A13DE179A6C5A02D01DD0 /* TDMediator */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				94BDD0062227784500F4395E /* TDModules */,
-				94BDD000222777E700F4395E /* TDMediator.h */,
-				94BDCFFF222777E700F4395E /* TDMediator.m */,
-				02BE5301AC95A2C257012A398B92662C /* Pod */,
-				80DC814F883F1C6C0CBFD70DB9816AE7 /* Support Files */,
+				06CDD10DE71306278CF89108B3036DFD /* iOS */,
 			);
-			name = TDMediator;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		6A56692262B6FEB1B5FE0FE641A7AC17 /* Pods-TDMediator_Tests */ = {
@@ -169,47 +143,50 @@
 			path = "Target Support Files/Pods-TDMediator_Tests";
 			sourceTree = "<group>";
 		};
+		736C5F9AFD1A872F66EFB14A05C7F61A /* TDMediator */ = {
+			isa = PBXGroup;
+			children = (
+				537AFD201D3005443BC40E09F5274081 /* TDMediator.h */,
+				530E8FBB0AACBEF738E3ED66AC4CA6C7 /* TDMediator.m */,
+				2EA2A599A3DE3F19B8D91549E9972986 /* TDMediator+TDVideoPlayModuleActions.h */,
+				8806C5321200CFAD39E81E3E4DFE30FF /* TDMediator+TDVideoPlayModuleActions.m */,
+				BF3B9612311638A7DD5D8C30E4338D22 /* Support Files */,
+			);
+			name = TDMediator;
+			path = TDMediator;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1FC18DD02E2DBD6510B592A5CD763D9C /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				B31AE5A05D41A7C8CEB5E915AA8FC066 /* Pods */,
 				D86B5BA9030C520D281A53B0FC420F4F /* Products */,
 				E999FE5B9358CC8441C298D5998E05CB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		80DC814F883F1C6C0CBFD70DB9816AE7 /* Support Files */ = {
+		B31AE5A05D41A7C8CEB5E915AA8FC066 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				75A5180267A87CA4A20CC3720841BEEA /* Info.plist */,
-				68866EA6062B2C466D7DE2EC1AF74694 /* TDMediator.modulemap */,
-				35BEB5650FD3A4BF2BB9EBF7659CC29E /* TDMediator.xcconfig */,
-				1BA7939F0D1C63985593B17CAFAD56F1 /* TDMediator-dummy.m */,
-				4F01D52039E631092D02C60A2CAFAAA4 /* TDMediator-prefix.pch */,
-				002CB23EDE4A02A1421C0CE7C930C347 /* TDMediator-umbrella.h */,
+				736C5F9AFD1A872F66EFB14A05C7F61A /* TDMediator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF3B9612311638A7DD5D8C30E4338D22 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAF46F6FEB9FAD63FD4A9E5319903546 /* Info.plist */,
+				B4BF82FB58F34E8AA7799D8DC741BECE /* TDMediator.modulemap */,
+				B9535DE0BAAFC7F748CBB6C17AF4FC80 /* TDMediator.xcconfig */,
+				2DCD5EE66B230B0F4BD19950E98FE219 /* TDMediator-dummy.m */,
+				A026B87D02809DFEF23F7D4DA2B51393 /* TDMediator-prefix.pch */,
+				F008E1095A05B1D82E7B540828D3D577 /* TDMediator-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TDMediator";
-			sourceTree = "<group>";
-		};
-		94BDD0062227784500F4395E /* TDModules */ = {
-			isa = PBXGroup;
-			children = (
-				94BDD007222778F300F4395E /* TDMediator+TDVideoPlayModuleActions.h */,
-				94BDD008222778F300F4395E /* TDMediator+TDVideoPlayModuleActions.m */,
-			);
-			name = TDModules;
-			path = TDMediator/Classes/TDModules;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
-			);
-			name = Frameworks;
+			path = "../Target Support Files/TDMediator";
 			sourceTree = "<group>";
 		};
 		D21F75F102D4680EB9714FAB176F8699 /* Pods-TDMediator_Example */ = {
@@ -252,13 +229,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8146F6A0158AC1EF8B689295B2B70054 /* Headers */ = {
+		3AAE32B871CA26F9873B63173305DE8A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1580C088BBA0B6D9ED47407FA6D61A7F /* TDMediator-umbrella.h in Headers */,
-				94BDD00A222778F300F4395E /* TDMediator+TDVideoPlayModuleActions.h in Headers */,
-				94BDD004222777E700F4395E /* TDMediator.h in Headers */,
+				67DC40D06F6DDE632205ADB7BBFAFC77 /* TDMediator+TDVideoPlayModuleActions.h in Headers */,
+				DD6C11C2C6774137C8072515E9AEA41D /* TDMediator-umbrella.h in Headers */,
+				AF12242C17E1E57E7142265352465EFB /* TDMediator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +244,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3348F91B93F0378BB2C818E3F1EA078 /* Pods-TDMediator_Example-umbrella.h in Headers */,
-				94BDD009222778F300F4395E /* TDMediator+TDVideoPlayModuleActions.h in Headers */,
-				94BDD003222777E700F4395E /* TDMediator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,9 +281,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDA25240E388C70C407BEF3AF7B03D9F /* Build configuration list for PBXNativeTarget "TDMediator" */;
 			buildPhases = (
-				8146F6A0158AC1EF8B689295B2B70054 /* Headers */,
-				1E59DF213AB44EED8C40FF4ACD69E476 /* Sources */,
-				F90A8FB8BB4E3BA70891DFB35237E0DA /* Frameworks */,
+				3AAE32B871CA26F9873B63173305DE8A /* Headers */,
+				6B344CD60AB8CEC9CFB383299D350C1A /* Sources */,
+				A291059EE01E76C44DEAB2B5EB3F5272 /* Frameworks */,
 				C33FADD90B47B6280D9BFF5BD60264CE /* Resources */,
 			);
 			buildRules = (
@@ -392,13 +367,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E59DF213AB44EED8C40FF4ACD69E476 /* Sources */ = {
+		6B344CD60AB8CEC9CFB383299D350C1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94BDD002222777E700F4395E /* TDMediator.m in Sources */,
-				94BDD00C222778F300F4395E /* TDMediator+TDVideoPlayModuleActions.m in Sources */,
-				D03DBCDEAB0DD0B0099D3E956AB82167 /* TDMediator-dummy.m in Sources */,
+				DCC33318C6E034C45981CD365DDDC1BD /* TDMediator+TDVideoPlayModuleActions.m in Sources */,
+				E18A53B750ECC9123B0A48CAA9C7DD48 /* TDMediator-dummy.m in Sources */,
+				42803F79D138AADFA2C0673122CAB8EA /* TDMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,8 +389,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94BDD001222777E700F4395E /* TDMediator.m in Sources */,
-				94BDD00B222778F300F4395E /* TDMediator+TDVideoPlayModuleActions.m in Sources */,
 				5ED55D5C7CDF1E120F618E404C0A8DD0 /* Pods-TDMediator_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,76 +411,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3A1F25E2BF72B7AC2DFA1005015632C1 /* Debug */ = {
+		2EC623081E15580B6329F4825F4ACEA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3309BC918E845B7A869AB17D7AFBAED2 /* Pods-TDMediator_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TDMediator_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TDMediator_Example/Pods-TDMediator_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5241F8BFF0D34E7B3A69441119AAD3B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 197994921B99DD67747C58953542C5FB /* Pods-TDMediator_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TDMediator_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TDMediator_Tests/Pods-TDMediator_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		64CD348B9CD11231FBEFFCB8982B2ED0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35BEB5650FD3A4BF2BB9EBF7659CC29E /* TDMediator.xcconfig */;
+			baseConfigurationReference = B9535DE0BAAFC7F748CBB6C17AF4FC80 /* TDMediator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -521,7 +427,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TDMediator/TDMediator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TDMediator/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TDMediator/TDMediator.modulemap";
 				PRODUCT_MODULE_NAME = TDMediator;
@@ -530,13 +436,12 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -586,21 +491,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		889051E25748B966F59D66057FD27F6F /* Debug */ = {
+		71CE00F99C930DCF196E9754396AE220 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35BEB5650FD3A4BF2BB9EBF7659CC29E /* TDMediator.xcconfig */;
+			baseConfigurationReference = BA56ECBE31EDF3CB1389F325D4CD2F91 /* Pods-TDMediator_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -610,24 +517,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TDMediator/TDMediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TDMediator/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TDMediator_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TDMediator/TDMediator.modulemap";
-				PRODUCT_MODULE_NAME = TDMediator;
-				PRODUCT_NAME = TDMediator;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TDMediator_Example/Pods-TDMediator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -680,7 +590,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -693,9 +603,9 @@
 			};
 			name = Debug;
 		};
-		CA45881A52D3D23EE94490CDA3A0E21A /* Release */ = {
+		8E486F494C97492E4D6FBA3A44037061 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA56ECBE31EDF3CB1389F325D4CD2F91 /* Pods-TDMediator_Example.release.xcconfig */;
+			baseConfigurationReference = 3309BC918E845B7A869AB17D7AFBAED2 /* Pods-TDMediator_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -709,7 +619,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TDMediator_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TDMediator_Example/Pods-TDMediator_Example.modulemap";
@@ -721,13 +631,43 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F27DBEB4B0B0D65413A0D57C2800FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9535DE0BAAFC7F748CBB6C17AF4FC80 /* TDMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TDMediator/TDMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TDMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TDMediator/TDMediator.modulemap";
+				PRODUCT_MODULE_NAME = TDMediator;
+				PRODUCT_NAME = TDMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		FEF9A961C375EB06F8B6F9A8ACE6BCCF /* Debug */ = {
+		BF5754B27D4B08556F9F1ADF947938B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3ECFCE23D1A58F573CFADA27F5A91B14 /* Pods-TDMediator_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -743,7 +683,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TDMediator_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TDMediator_Tests/Pods-TDMediator_Tests.modulemap";
@@ -760,14 +700,48 @@
 			};
 			name = Debug;
 		};
+		D519B2F3BB4F111D396AC5000B19EAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 197994921B99DD67747C58953542C5FB /* Pods-TDMediator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TDMediator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TDMediator_Tests/Pods-TDMediator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A73625DEBD810B78234FA1958C191C8C /* Debug */,
-				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -775,8 +749,8 @@
 		5412B24942232195E6B014649D1075D4 /* Build configuration list for PBXNativeTarget "Pods-TDMediator_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A1F25E2BF72B7AC2DFA1005015632C1 /* Debug */,
-				CA45881A52D3D23EE94490CDA3A0E21A /* Release */,
+				8E486F494C97492E4D6FBA3A44037061 /* Debug */,
+				71CE00F99C930DCF196E9754396AE220 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -784,8 +758,8 @@
 		CDA25240E388C70C407BEF3AF7B03D9F /* Build configuration list for PBXNativeTarget "TDMediator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				889051E25748B966F59D66057FD27F6F /* Debug */,
-				64CD348B9CD11231FBEFFCB8982B2ED0 /* Release */,
+				2EC623081E15580B6329F4825F4ACEA4 /* Debug */,
+				9F27DBEB4B0B0D65413A0D57C2800FAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -793,8 +767,8 @@
 		FA261668CE06AA4492047FDC2B702BC6 /* Build configuration list for PBXNativeTarget "Pods-TDMediator_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEF9A961C375EB06F8B6F9A8ACE6BCCF /* Debug */,
-				5241F8BFF0D34E7B3A69441119AAD3B7 /* Release */,
+				BF5754B27D4B08556F9F1ADF947938B6 /* Debug */,
+				D519B2F3BB4F111D396AC5000B19EAEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

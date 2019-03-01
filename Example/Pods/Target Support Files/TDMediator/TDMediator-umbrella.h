@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "TDMediator.h"
+#import "TDMediator+TDVideoPlayModuleActions.h"
 
 FOUNDATION_EXPORT double TDMediatorVersionNumber;
 FOUNDATION_EXPORT const unsigned char TDMediatorVersionString[];
