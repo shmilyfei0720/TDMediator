@@ -1,6 +1,0 @@
-framework module TDMediator {
-  umbrella header "TDMediator-umbrella.h"
-
-  export *
-  module * { export * }
-}
