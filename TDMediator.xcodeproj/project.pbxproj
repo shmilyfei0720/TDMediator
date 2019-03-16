@@ -13,9 +13,13 @@
 		94B83689223CF0C2005A4FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B83688223CF0C2005A4FB7 /* Assets.xcassets */; };
 		94B8368C223CF0C2005A4FB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B8368A223CF0C2005A4FB7 /* LaunchScreen.storyboard */; };
 		94B8368F223CF0C2005A4FB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B8368E223CF0C2005A4FB7 /* main.m */; };
+		FF507A332E27DC70E015D336 /* Pods_TDMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23649A58FFAD3FF8E6E6FEA8 /* Pods_TDMediator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23649A58FFAD3FF8E6E6FEA8 /* Pods_TDMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		418BCB2040369F0E4C736A64 /* Pods-TDMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDMediator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDMediator/Pods-TDMediator.debug.xcconfig"; sourceTree = "<group>"; };
+		63B4FBEFC0F511A49D221D5D /* Pods-TDMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDMediator.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDMediator/Pods-TDMediator.release.xcconfig"; sourceTree = "<group>"; };
 		94B8367C223CF0C1005A4FB7 /* TDMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B8367F223CF0C1005A4FB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		94B83680223CF0C1005A4FB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF507A332E27DC70E015D336 /* Pods_TDMediator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E5DF3EA006235BA4DC60D94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23649A58FFAD3FF8E6E6FEA8 /* Pods_TDMediator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		94B83673223CF0C1005A4FB7 = {
 			isa = PBXGroup;
 			children = (
 				94B8367E223CF0C1005A4FB7 /* TDMediator */,
 				94B8367D223CF0C1005A4FB7 /* Products */,
+				D4181B3A4EAAD674E464C563 /* Pods */,
+				4E5DF3EA006235BA4DC60D94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +86,15 @@
 			path = TDMediator;
 			sourceTree = "<group>";
 		};
+		D4181B3A4EAAD674E464C563 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				418BCB2040369F0E4C736A64 /* Pods-TDMediator.debug.xcconfig */,
+				63B4FBEFC0F511A49D221D5D /* Pods-TDMediator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94B83692223CF0C2005A4FB7 /* Build configuration list for PBXNativeTarget "TDMediator" */;
 			buildPhases = (
+				38FF193F7D7809B62040AF54 /* [CP] Check Pods Manifest.lock */,
 				94B83678223CF0C1005A4FB7 /* Sources */,
 				94B83679223CF0C1005A4FB7 /* Frameworks */,
 				94B8367A223CF0C1005A4FB7 /* Resources */,
+				625FE023E73D4C2BE3A49522 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +161,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38FF193F7D7809B62040AF54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDMediator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		625FE023E73D4C2BE3A49522 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TDMediator/Pods-TDMediator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TDMediator/TDMediator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TDMediator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDMediator/Pods-TDMediator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		94B83678223CF0C1005A4FB7 /* Sources */ = {
@@ -283,6 +356,7 @@
 		};
 		94B83693223CF0C2005A4FB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418BCB2040369F0E4C736A64 /* Pods-TDMediator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +374,7 @@
 		};
 		94B83694223CF0C2005A4FB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63B4FBEFC0F511A49D221D5D /* Pods-TDMediator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

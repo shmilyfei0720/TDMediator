@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TDMediator'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '业务组件消息中间件'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TDMediator/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'TDMediator' => ['TDMediator/Assets/*.png']
